@@ -45,3 +45,5 @@ No endpoint '/jobs/<job_id>' sendo __job_id__ um _número inteiro maior que 0_, 
 No endpoint '/users/<user_id>' sendo __user_id__ um _número inteiro maior que 0_, você encontrará __todos os jobs criados pelo usuário com o ID especificado__.
 
 No terminal que você rodou a aplicação, você poderá verificar eventuais _erros_ que possam ter acontecido durante alguma ação, os _job_id's criados_ desde que o programa está sendo executado e também o _tipo dos inputs_, para verificar se está sempre sendo do tipo dicionário python ou se você está tentando fazer o input com algum tipo não permitido.
+
+A função "meulambda" implementanda no serviço Amazon Lambda está também no arquivo `lambda.py` deste mesmo repositório git, para exemplificar como utiliza o serviço em aplicações similares a esta.
